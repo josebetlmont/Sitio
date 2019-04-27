@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Sitio">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="mysql-connector-java-8.0.15.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-8.0.15/mysql-connector-java-8.0.15">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-2.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/gson-2.6.2/gson-2.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Sitio"/>
+        <property name="java-output-path" value="/Sitio/build/classes"/>
+    </wb-module>
+</project-modules>
